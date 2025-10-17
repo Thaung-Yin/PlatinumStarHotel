@@ -852,6 +852,38 @@ body{
     .slider .slide-img img {
         display: none;
     }
+
+    .amenities{
+        width: 100%;
+        background-color: rgba(52, 149, 176,0.7);
+        backdrop-filter: blur(5px);
+        margin: 0 auto;
+        clip-path: none;
+    }
+
+    .amenities h1{
+        text-align: center !important;
+        margin-left: 45px !important;
+    }
+
+    .amenity{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    .amenity-item {
+        width: auto;
+        margin: 10px 0;
+    }
+    .section-title ::after {
+        right: 30%;
+        width: 100px;
+    }
+
     .card {
         width: 100%;
         transition: all 0.5s ease-in-out;
@@ -927,37 +959,6 @@ body{
     }
     .modalBox .form-group .form-control {
         width: 100%;
-    }
-
-    .amenities{
-        width: 100%;
-        background-color: rgba(52, 149, 176,0.7);
-        backdrop-filter: blur(5px);
-        margin: 0 auto;
-        clip-path: none;
-    }
-
-    .amenities h1{
-        text-align: center !important;
-        margin-left: 45px !important;
-    }
-
-    .amenity{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-
-
-    .amenity-item {
-        width: auto;
-        margin: 10px 0;
-    }
-    .section-title ::after {
-        right: 30%;
-        width: 100px;
     }
 
     .links{
