@@ -853,6 +853,10 @@ body{
         display: none;
     }
 
+    .modalBox i{
+        display: none;
+    }
+
     .amenities{
         width: 100%;
         background-color: rgba(52, 149, 176,0.7);
@@ -894,15 +898,12 @@ body{
     }
     .room-info {
         position: relative;
-        transform: translateY(100%);
+        transform: translateY(-170%);
         background-color: rgba(255, 255, 255, 0.8);
 
         
     }
 
-    .card:hover .room-info{
-        transform: translateY(-100%);
-    }
     .btn-group {
         width: 100%;
         flex-direction: column;
@@ -959,6 +960,26 @@ body{
     }
     .modalBox .form-group .form-control {
         width: 100%;
+    }
+
+    .card {
+        width: 100%;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .card img{
+        scale: 1.2;
+    }
+    .room-info {
+        position: relative;
+        transform: translateY(100%);
+        background-color: rgba(255, 255, 255, 0.8);
+
+        
+    }
+
+    .card:hover .room-info{
+        transform: translateY(-100%);
     }
 
     .links{
