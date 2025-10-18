@@ -972,14 +972,10 @@ body{
     }
     .room-info {
         position: relative;
-        transform: translateY(100%);
+        transform: translateY(-160%);
         background-color: rgba(255, 255, 255, 0.8);
 
         
-    }
-
-    .card:hover .room-info{
-        transform: translateY(-100%);
     }
 
     .links{
