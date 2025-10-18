@@ -1,18 +1,30 @@
-const getSlideImgs = document.querySelectorAll('.slide-img img');
+const getSlideImgContainers = document.querySelectorAll('.slide-img');
 const getHeroSect = document.getElementById('hero');
 const orderBtn = document.querySelector('.orderBtns')
 const closebtn = document.querySelector('.close-btns');
 const canclebtn = document.querySelector('.cancle');
 const modalBox = document.querySelector('.modalBox');
 
-if (getSlideImgs.length > 0 && getHeroSect) {
+if (getSlideImgContainers.length > 0 && getHeroSect) {
     let currentIndex = 0;
-    const totalSlides = getSlideImgs.length;
+    const totalSlides = getSlideImgContainers.length;
+
+    function updateActiveSlide(index) {
+        getSlideImgContainers.forEach((container, i) => {
+            if (i === index) {
+                container.classList.add('active');
+            } else {
+                container.classList.remove('active');
+            }
+        });
+    }
 
     function showSlide(index) {
-        const img = getSlideImgs[index];
+        const slideContainer = getSlideImgContainers[index];
+        const img = slideContainer.querySelector('img');
         if (!img || !img.src) return;
         getHeroSect.style.backgroundImage = `url('${img.src}')`;
+        updateActiveSlide(index);
     }
 
     showSlide(currentIndex);
@@ -22,9 +34,10 @@ if (getSlideImgs.length > 0 && getHeroSect) {
         showSlide(currentIndex);
     }, 4000);
 
-    getSlideImgs.forEach(function(img, idx) {
-        img.addEventListener('click', function() {
-            if (!img.src) return;
+    getSlideImgContainers.forEach(function(container, idx) {
+        container.addEventListener('click', function() {
+            const img = container.querySelector('img');
+            if (!img || !img.src) return;
             currentIndex = idx;
             showSlide(currentIndex);
         });
