@@ -902,7 +902,7 @@ body{
         background-color: rgba(255, 255, 255, 0.8); 
     }
 
-    
+
 
     .btn-group {
         width: 100%;
@@ -961,6 +961,16 @@ body{
     .modalBox .form-group .form-control {
         width: 100%;
     }
+
+    .room-info {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+
+        transform: translateY(0%);
+        background-color: rgba(255, 255, 255, 0.8); 
+    }
+    
 
     .links{
         border-top: 1px solid #ccc;
