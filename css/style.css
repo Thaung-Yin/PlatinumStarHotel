@@ -898,11 +898,11 @@ body{
     }
     .room-info {
         position: relative;
-        transform: translateY(-170%);
-        background-color: rgba(255, 255, 255, 0.8);
-
-        
+        transform: translateY(-100%);
+        background-color: rgba(255, 255, 255, 0.8); 
     }
+
+    
 
     .btn-group {
         width: 100%;
@@ -960,22 +960,6 @@ body{
     }
     .modalBox .form-group .form-control {
         width: 100%;
-    }
-
-    .card {
-        width: 100%;
-        transition: all 0.5s ease-in-out;
-    }
-
-    .card img{
-        scale: 1.2;
-    }
-    .room-info {
-        position: relative;
-        transform: translateY(-160%);
-        background-color: rgba(255, 255, 255, 0.8);
-
-        
     }
 
     .links{
