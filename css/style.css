@@ -897,8 +897,10 @@ body{
         scale: 1.2;
     }
     .room-info {
-        position: relative;
-        transform: translateY(-100%);
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        transform: translateY(0%);
         background-color: rgba(255, 255, 255, 0.8); 
     }
 
