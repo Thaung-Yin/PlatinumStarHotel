@@ -69,7 +69,7 @@ function open(){
 	const getyear = $('#getyear');
 	const getfullyear = new Date().getFullYear();
 	getyear.text(getfullyear);
-	// End Footer
+// End Footer
 
 
 $(document).ready(function(){
