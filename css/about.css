@@ -109,10 +109,11 @@ body{
     position: relative;
 }
 
-.rating-container h2::after{
+.rating-container h2::after, .gallery h2:after{
     content: "";
 
-    width: 80px;
+    width: 80%;
+    max-width: 150px;
     height: 3px;
     background-color: var(--primarycolor);
 
@@ -144,10 +145,12 @@ body{
 
 .gallery h2{
     font-family: var(--primaryfont);
-    font-size: 2.5rem;
+    font-size: 3rem;
     text-align: center;
 
-    margin: 20px 0;
+    margin-bottom: 30px;
+
+    position: relative;
 }
 
 .gallery .images{
@@ -165,9 +168,10 @@ body{
 
 .images img{
     width: 100%;
-    max-width: 300px;
+    max-width: 350px;
     border-radius: 16px;
 }
+
 
 .location-contacts h2{
     font-family: var(--primaryfont);
