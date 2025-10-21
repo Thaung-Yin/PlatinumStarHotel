@@ -485,7 +485,7 @@ body{
 /*Start Amenities Section */
 #amenities {
     width: 100%;
-    background: url('https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=2070&auto=format&fit=crop') no-repeat center center;
+    background: url('../img/repction.jpg') no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
     color: #fff;
@@ -584,7 +584,7 @@ body{
 	background-image: linear-gradient(
 		rgba(0,0,0,0.2)30%,
 		rgba(52, 149, 176,0.5) 70%
-	),url("https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2025/08/04/0109/KULPH-P0403-Twin-Room-Bedroom.jpg/KULPH-P0403-Twin-Room-Bedroom.16x9.jpg");
+	),url("../img/Grand Deluxe-room.JPG");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;

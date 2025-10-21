@@ -64,7 +64,7 @@ body{
     height: 350px;
     background: linear-gradient(195deg,rgba(0,0,0,0.9),
     rgba(52, 149, 176,0.6)) 40%, 
-    url("https://t4.ftcdn.net/jpg/10/97/83/25/360_F_1097832522_RwEidOYGeVfRPaOMJbZybfLsSlQqC8my.jpg") no-repeat center center;
+    url("../img/repction.jpg") no-repeat center center;
     background-size: cover;
     color: #fff;
     font-weight: 500;
@@ -88,7 +88,8 @@ body{
 
 .about-contents .imgs img{
     width: 100%;
-    max-width: 400px;
+    max-width: 500px;
+    height: auto;
     margin: 0 auto;
 
     border-radius: 16px;
@@ -133,7 +134,7 @@ body{
 
 .ratings h3{
     font-family: var(--primaryfont);
-    font-size: 3rem;
+    font-size: 2rem;
     margin-top: 10px;
 }
 
@@ -155,7 +156,7 @@ body{
 
 .gallery .images{
     width: 100%;
-
+    margin: 10px 0;
     
 
     display: flex;
