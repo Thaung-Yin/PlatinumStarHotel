@@ -171,6 +171,17 @@ body{
     gap: 10px;
 }
 
+.gallery button{
+    background-color: var(--primarycolor);
+
+    transition: all 0.3s ease-in-out;
+}
+
+.gallery button:hover{
+    background-color: var(--secondarycolor);
+    color: #000 !important;
+}
+
 .images img{
     width: 100%;
     max-width: 350px;
@@ -287,6 +298,11 @@ body{
 }
 
 @media (max-width: 768px) {
+
+    .location-contacts h2{
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+    }
 
     .links{
         border-top: 1px solid #ccc;

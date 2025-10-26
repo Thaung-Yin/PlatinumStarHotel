@@ -108,6 +108,26 @@ body{
     max-width: 600px;
 }
 
+.services h1{
+    font-family: var(--primaryfont);
+
+    position: relative;
+}
+
+.services h1:after{
+    content: "";
+    width: 80%;
+    max-width: 100px;
+    height: 4px;
+
+    background-color: var(--primarycolor);
+
+    position: absolute;
+    left: 50%;
+    bottom: -5px;
+    transform: translate(-50%);
+}
+
 .services i{
     width: 80px;
     height: 80px;

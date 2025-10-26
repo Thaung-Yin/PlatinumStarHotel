@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root{
+    --primarycolor: rgb(52, 149, 176);
+    --secondarycolor:rgb(175, 208, 234);
+    --primaryfont: "Lora";
+    --secondaryfont: "PT Sans";
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+/*Start Back To Top*/
+.btn-backtotops{
+	background-color: var(--primarycolor);
+	color: #fff;
+    font-size: 18px;
+	padding: 15px 10px;
+	border-radius: 20px;
+
+	position: absolute;
+	right: 30px;
+	bottom: 10px;
+
+	z-index: 200;
+}
+/*End Back To Top*/
+
+body{
+    background-color: #fff;
+}
+
+/* Start Nav bar */
+
+.navbars{
+    width: 90%;
+    margin: 0 auto;
+    background-color: var(--secondarycolor) !important;
+    font-family: var(--secondaryfont);
+    font-size: 20px;
+    border-radius: 20px;
+
+    transition: all 0.3s linear;
+}
+
+.navbars.navmenus{
+    width: 100%;
+    margin: 0 auto !important;
+    background-color: rgba(175, 208, 234, 0.4) !important;
+    font-weight: 800;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    border-radius: 0;
+    backdrop-filter: blur(15px);
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar a img{
+    width: 120px;
+}
+
+
+.contacts{
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(52, 149, 176,0.8)),url('../img/repction.jpg') no-repeat center center;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts h3{
+    font-family: var(--primaryfont);
+    font-size: 5rem;
+}
+
+.contacts p{
+    width: 60%;
+
+    margin-bottom: 50px;
+
+    font-size: 1rem;
+}
+
+.forms .form-groups{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    gap: 10px;
+}
+
+.form-groups .btns{
+    background-color: var(--primarycolor);
+    outline: none;
+    border: none;
+    
+}
+
+.socials{
+
+    background: linear-gradient(170deg, rgba(52, 149, 176,0.4) 30%, rgba(175, 208, 234,1) 70%);
+}
+
+.socials h1{
+    font-family: var(--primaryfont);
+    font-size: 2.5rem;
+}
+
+
+
+.socials img{
+    max-width: 800px;
+    width: 100%;
+    height: 600px;
+}
+
+.socials .social-icons{
+    width: 100%;
+    display: flex;
+    gap: 50px;
+
+    
+}
+
+.socials .social-icons i{
+    font-size: 1.5rem;
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+
+    line-height: 50px;
+    background-color: var(--primarycolor);
+    color: #fff;
+
+    border-radius: 50%;
+
+    position: relative;
+
+    cursor: pointer;
+}
+
+
+
+
+
+/* start footer section */
+
+.footers{
+    margin: 0 auto;
+}
+
+.footers .mains img{
+    width: 200px;
+}
+
+.footers .mains p{
+    font-family: var(--secondaryfont);
+    font-size: 0.9rem;
+    text-wrap: wrap;
+}
+
+.footers .links ul{
+    padding: 0;
+    margin: 0;
+}
+
+.footers .links ul li{
+    list-style: none;
+
+}
+
+
+
+.footers .links ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.9rem;
+
+    transition: color 0.3s ease-in-out;
+}
+
+.footers .links ul li a:hover{
+    color: var(--secondarycolor);
+}
+
+.footers .sub-forms input{
+    border: none;
+    
+}
+
+
+.footers .sub-forms input::placeholder{
+    font-family: var(--secondaryfont);
+    font-size: 14px;
+    color: #0000005d;
+}
+
+.sub-forms .sub-btns{
+    background-color: var(--primarycolor);
+}
+
+
+
+.social-links .icons i{
+    font-size: 1.5rem;
+
+    transition: all 0.3s ease-in-out;
+}
+
+.social-links .icons a{
+    color: #fff;
+}
+
+.social-links .icons i:hover{
+    color: var(--secondarycolor);
+    scale: 1.2;
+}
+/* end footer section */
+
+/* Responsive improvements for hero, slider, cards and general layout */
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
+
+    .socials img{
+        height: auto;
+    }
+
+    .socials{
+
+        text-align: center;
+    }
+
+    .socials h1{
+        font-size: 1.5rem;
+    }
+
+    .socials .social-icons{
+        gap: 30px;
+        margin-left: 50px;
+    }
+
+    .socials .social-icons i{
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+
+    }
+
+
+
+    .links{
+        border-top: 1px solid #ccc;
+        padding-top: 5px;
+    }
+
+    .social-links, .sub-forms{
+        margin-top: 15px;
+        padding-top: 5px;
+        border-top: 1px solid #ccc;
+    }
+
+    .contacts h3{
+        font-size: 2.5rem;
+    }
+
+    .contacts p{
+        width: 100%;
+        font-size: 1rem;
+    }
+    .forms .form-groups{
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+}
+
+@media (max-width: 576px) {
+    .links{
+        border-top: 1px solid #ccc;
+        padding-top: 5px;
+    }
+
+    .social-links, .sub-forms{
+        margin-top: 15px;
+        padding-top: 5px;
+        border-top: 1px solid #ccc;
+    }
+
+    
+}
