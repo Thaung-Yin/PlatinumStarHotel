@@ -16,6 +16,13 @@
 
 }
 
+/* Make media elements responsive by default to avoid overflow */
+img, picture, video, svg {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
 html{
     scroll-behavior: smooth;
 }

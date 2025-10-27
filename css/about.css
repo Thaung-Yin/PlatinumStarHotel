@@ -16,6 +16,13 @@
 
 }
 
+/* Make media elements responsive by default to avoid overflow */
+img, picture, video, svg {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
 /*Start Back To Top*/
 .btn-backtotops{
 	background-color: var(--primarycolor);
@@ -132,8 +139,9 @@ body{
     text-align: center;
  }
 
-.rating-container .ratings img{
-    width: 100px;
+.rating-container .ratings .rating-logo{
+    width: 120px;
+    margin: 0 auto;
 }
 
 .ratings h3{

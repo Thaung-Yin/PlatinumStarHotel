@@ -16,6 +16,13 @@
 
 }
 
+/* Make media elements responsive by default to avoid overflow */
+img, picture, video, svg {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
 /*Start Back To Top*/
 .btn-backtotops{
 	background-color: var(--primarycolor);
@@ -34,9 +41,10 @@
 
 /* Start modal box */
 .modalBox{
-    width: 100vw;
-    height: 100vh;
-    background-color: rgba(0, 0, 0,0.4);
+    /* use full positioning instead of 100vw to avoid horizontal overflow when scrollbars appear */
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
     backdrop-filter: blur(15px);
 
     display: none;
@@ -45,7 +53,8 @@
     position: fixed;
     top: 0;
     left: 0;
-
+    right: 0;
+    bottom: 0;
 
     z-index: 10000;
 }
@@ -108,7 +117,8 @@
 }
 
 .form-group .form-control{
-    width: 500px;
+    width: 100%;
+    max-width: 500px;
     padding: 10px 20px;
 
     color: #fff;
