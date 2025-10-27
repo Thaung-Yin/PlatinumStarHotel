@@ -70,7 +70,7 @@ body{
 
 .room-welcomes{
     height: 450px;
-    background: linear-gradient(rgba(0,0,0,0.4),rgba(52, 149, 176,0.8)),url('../img/hotel-wide-view.jpg') no-repeat center center;
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(52, 149, 176,0.8)),url('../img/hotel-outside.jpg') no-repeat center center;
     background-size: cover;
 
     display: flex;
