@@ -197,30 +197,6 @@ body{
 }
 
 
-.location-contacts h2{
-    font-family: var(--primaryfont);
-    font-size: 3.5rem;
-    margin-bottom: 50px;
-}
-
-.location-contacts p{
-    font-size: 1rem;
-    font-family: var(--secondaryfont);
-}
-
-.location-contacts p i{
-    color: var(--primarycolor);
-}
-
-.maps iframe{
-    width: 100%;
-    height: 450px;
-}
-
-
-
-
-
 
 
 /* start footer section */
