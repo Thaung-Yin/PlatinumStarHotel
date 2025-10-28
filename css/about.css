@@ -71,6 +71,18 @@ body{
     width: 120px;
 }
 
+.currencys select{
+    background-color: transparent;
+    border: none;
+
+    font-family: var(--secondaryfont);
+    
+}
+
+.currencys select:active{
+    outline: none !important;
+}
+
 .abouts{
     height: 350px;
     background: linear-gradient(195deg,rgba(0,0,0,0.9),
@@ -179,20 +191,11 @@ body{
     gap: 10px;
 }
 
-.gallery button{
-    background-color: var(--primarycolor);
-
-    transition: all 0.3s ease-in-out;
-}
-
-.gallery button:hover{
-    background-color: var(--secondarycolor);
-    color: #000 !important;
-}
 
 .images img{
-    width: 100%;
+    width: 20%;
     max-width: 350px;
+    height: 250px;
     border-radius: 16px;
 }
 

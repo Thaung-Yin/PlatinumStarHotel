@@ -234,6 +234,18 @@ body{
     width: 120px;
 }
 
+.currencys select{
+    background-color: transparent;
+    border: none;
+
+    font-family: var(--secondaryfont);
+    
+}
+
+.currencys select:active{
+    outline: none !important;
+}
+
 
 
 #hero{
@@ -598,7 +610,7 @@ body{
 	background-image: linear-gradient(
 		rgba(0,0,0,0.2)30%,
 		rgba(52, 149, 176,0.5) 70%
-	),url("../img/Grand Deluxe-room.JPG");
+	),url("../img/Grand-Deluxe-room.JPG");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -615,6 +627,7 @@ body{
 
 .carousel-item img{
     width: 200px;
+    margin: 0 auto;
     margin-bottom: 30px;
 }
 /*End Testimonial Section*/

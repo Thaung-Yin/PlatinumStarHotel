@@ -75,6 +75,18 @@ body{
     width: 120px;
 }
 
+
+.currencys select{
+    background-color: transparent;
+    border: none;
+
+    font-family: var(--secondaryfont);
+    
+}
+
+.currencys select:active{
+    outline: none !important;
+}
 .room-welcomes{
     height: 450px;
     background: linear-gradient(rgba(0,0,0,0.4),rgba(52, 149, 176,0.8)),url('../img/hotel-outside.jpg') no-repeat center center;

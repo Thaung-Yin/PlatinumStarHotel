@@ -6,6 +6,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css"/>
     <link href="./img/logomark.png" rel="icon" type="image/x-icon" >
 
     <title>Platinum Star Hotel/Rooms</title>
@@ -43,6 +44,15 @@
                         <a class="nav-link active" href="contact.html">Contact Us</a>
                     </li>
                 </ul>
+
+                <!-- Currency selector -->
+                <div class="ms-lg-3 ms-sm-0 mt-2 mt-lg-0 border-0 text-light currencys">
+                    <select id="currencySelect" class="form-select form-select-sm">
+                        <option value="USD">$ USD</option>
+                        <option value="THB">฿ THB</option>
+                        <option value="MMK">MMK</option>
+                    </select>
+                </div>
             </div>
         </div>
     </nav>
@@ -58,15 +68,17 @@
         </div>
 
         <div class="col-lg-12 forms">
-            <form action="" method="">
+            <form id="contactForm" action="" method="">
                 <div class="form-group form-groups">
-                    <input type="text" name="" id="name" class="form-control border-0" placeholder="Your Name" autocomplete="off" autofocus>
-                    <input type="email" name="" id="email" class="form-control border-0" placeholder="Your Email">
-                    <input type="text" name="msg" id="msg" class="form-control border-0" placeholder="Message" />
-                    <button type="submit" class="btn text-light btns">Subscribe</button>
+                    <input type="text" name="name" id="name" class="form-control border-0" placeholder="Your Name" autocomplete="off" autofocus>
+                    <input type="email" name="email" id="email" class="form-control border-0" placeholder="Your Email">
                 </div>
-
-                
+                <div class="form-group mt-3">
+                    <textarea name="message" id="message" class="form-control border-0" placeholder="Message" rows="2" ></textarea>
+                </div>
+                <div class="form-group mt-3">
+                    <button type="submit" class="btn text-light btns">Submit</button>
+                </div>
             </form>
         </div>
 </section>
@@ -167,9 +179,9 @@
             <div class="col-lg-3 col-md-4 sub-forms">
                 <h4>Get In Touch.</h4>
                 <p class="mt-4">Sign up here to receive update.</p>
-                <form action="" method="">
-                    <input type="text" class="form-control mb-2 text-mute" placeholder="Your Name">
-                    <input type="email" class="form-control" placeholder="Your Email">
+                <form id="footerSubscribeForm" action="" method="">
+                    <input type="text" name="name" class="form-control mb-2 text-mute" placeholder="Your Name">
+                    <input type="email" name="email" class="form-control" placeholder="Your Email">
                     <button type="submit" class="btn text-uppercase fw-bold rounded-pill text-light mt-3 sub-btns">Subscribe</button>
                 </form>
             </div>
@@ -198,6 +210,7 @@
 <!-- jquery -->
         <script src="https://code.jquery.com/jquery-3.7.1.min.js" type="text/javascript"></script>
 <!-- Native JS -->
-        <script src="./js/about.js" type="text/javascript"></script>
+    <script src="./js/about.js" type="text/javascript"></script>
+    <script src="./js/integrations.js" type="text/javascript"></script>
 </body>
 </html>

@@ -71,6 +71,18 @@ body{
     width: 120px;
 }
 
+.currencys select{
+    background-color: transparent;
+    border: none;
+
+    font-family: var(--secondaryfont);
+    
+}
+
+.currencys select:active{
+    outline: none !important;
+}
+
 
 .contacts{
     height: 100vh;
@@ -97,16 +109,24 @@ body{
 }
 
 .forms .form-groups{
-    width: 60%;
+    width: 50%;
     margin: 0 auto;
     display: flex;
     gap: 10px;
 }
 
-.form-groups .btns{
-    background-color: var(--primarycolor);
+.forms textarea{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.forms .form-group .btns{
+    background-color: var(--primarycolor) !important;
     outline: none;
     border: none;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
     
 }
 
