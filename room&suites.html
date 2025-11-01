@@ -46,13 +46,13 @@
                 </ul>
 
                 <!-- Currency selector -->
-                <div class="ms-lg-3 ms-sm-0 mt-2 mt-lg-0 border-0 text-light currencys">
+                <!-- <div class="ms-lg-3 ms-sm-0 mt-2 mt-lg-0 border-0 text-light currencys">
                     <select id="currencySelect" class="form-select form-select-sm">
                         <option value="USD">$ USD</option>
                         <option value="THB">฿ THB</option>
                         <option value="MMK">MMK</option>
                     </select>
-                </div>
+                </div> -->
             </div>
 
         </div>
@@ -61,7 +61,7 @@
 <!-- End Nav Section -->
 
 <!-- start welcome section -->
-<section class="container-fluid room-welcomes">
+<section class="container-fluid room-welcomes" id="room">
     <div class="row">
         <div class="col-ld-12">
             <h3 class="text-light text-center">Room & Suites</h3>
@@ -76,6 +76,35 @@
 
 <section id="rooms-listing" class="sections py-5">
         <div class="container">
+
+            <div class="card mb-4 shadow-lg rounded-3 border-0 overflow-hidden">
+                <div class="row g-0">
+                    <div class="col-lg-5">
+                        <img src="./img/standard.jpg" class="rounded-start img-cover" alt="Superior Room">
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="card-body p-4 d-flex flex-column h-100">
+                            <div>
+                                <h3 class="card-title text-dark fw-semibold mb-2">Standard Room</h3>
+                                <p class="fw-bold text-muted">Comfort and Convenience Combined</p>
+                                <p class="fs-4 fw-bold text-primary"><span class="price">700฿</span> <span class="fs-6 fw-normal text-muted">/ per night</span></p>
+                                <p class="card-text">Our Superior Room offers the perfect blend of comfort and value, ideal for both business and leisure travelers. 
+                                    This bright, inviting space features a plush queen-sized bed, a modern work desk, and a fully-stocked minibar. 
+                                    Unwind after a long day in the elegant en-suite bathroom, complete with premium toiletries. 
+                                    It's the perfect, cozy retreat for a restful night's sleep.</p>
+                            </div>
+                            <div class="mt-auto pt-3 border-top d-flex flex-wrap gap-3">
+                                <div class="d-flex align-items-center gap-2 text-muted"><i class="fa-solid fa-star text-warning"></i> <span>4.5</span></div>
+                                <div class="d-flex align-items-center gap-2 text-muted"><i class="fa-solid fa-user"></i> <span>2 Guests</span></div>
+                                <div class="d-flex align-items-center gap-2 text-muted"><i class="fa-solid fa-bed"></i> <span>1 Bed</span></div>
+                                <div class="d-flex align-items-center gap-2 text-muted"><i class="fa-solid fa-tv"></i> <span>TV</span></div>
+                                <div class="d-flex align-items-center gap-2 text-muted"><i class="fa-solid fa-wifi"></i> <span>Wifi</span></div>
+                                <div class="d-flex align-items-center gap-2 text-muted"><i class="fa-solid fa-square-parking"></i> <span>Free Parking</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             
             <!-- Room 1: Superior Room -->
             <div class="card mb-4 shadow-lg rounded-3 border-0 overflow-hidden">
@@ -88,7 +117,7 @@
                             <div>
                                 <h3 class="card-title text-dark fw-semibold mb-2">Superior Room</h3>
                                 <p class="fw-bold text-muted">Comfort and Convenience Combined</p>
-                                <p class="fs-4 fw-bold text-primary"><span class="price" data-price-usd="$33" data-price-thb="1100฿" data-price-mmk="110,000 MMK">$33</span> <span class="fs-6 fw-normal text-muted">/ per night</span></p>
+                                <p class="fs-4 fw-bold text-primary"><span class="price">1100฿</span> <span class="fs-6 fw-normal text-muted">/ per night</span></p>
                                 <p class="card-text">Our Superior Room offers the perfect blend of comfort and value, ideal for both business and leisure travelers. 
                                     This bright, inviting space features a plush queen-sized bed, a modern work desk, and a fully-stocked minibar. 
                                     Unwind after a long day in the elegant en-suite bathroom, complete with premium toiletries. 
@@ -118,7 +147,7 @@
                             <div>
                                 <h3 class="card-title text-dark fw-semibold mb-2">Deluxe Room</h3>
                                 <p class="fw-bold text-muted">A Step Up in Space and Style</p>
-                                <p class="fs-4 fw-bold text-primary"><span class="price" data-price-usd="$38" data-price-thb="1300฿" data-price-mmk="130,000mmk">$38</span> <span class="fs-6 fw-normal text-muted">/ per night</span></p>
+                                <p class="fs-4 fw-bold text-primary"><span class="price">1300฿</span> <span class="fs-6 fw-normal text-muted">/ per night</span></p>
                                 <p class="card-text">Elevate your stay in our Deluxe Room, offering more space and enhanced amenities. 
                                     Featuring a luxurious king-sized bed and a comfortable seating area, this room is designed for relaxation. 
                                     Large windows flood the space with natural light and offer impressive views of the city. 
@@ -148,7 +177,7 @@
                             <div>
                                 <h3 class="card-title text-dark fw-semibold mb-2">Grand Deluxe Room</h3>
                                 <p class="fw-bold text-muted">Luxurious Space with Panoramic Views</p>
-                                <p class="fs-4 fw-bold text-primary"><span class="price" data-price-usd="$47" data-price-thb="1600฿" data-price-mmk="145,000mmk">$47</span> <span class="fs-6 fw-normal text-muted">/ per night</span></p>
+                                <p class="fs-4 fw-bold text-primary"><span class="price">1600฿</span> <span class="fs-6 fw-normal text-muted">/ per night</span></p>
                                 <p class="card-text">Experience true luxury in our Grand Deluxe Room. This expansive room boasts a premium king-sized bed, 
                                     a separate, plush seating area perfect for unwinding, and floor-to-ceiling windows with stunning panoramic city views. 
                                     The elegant marble bathroom features a deep soaking tub, a separate rain shower, 
@@ -178,7 +207,7 @@
                             <div>
                                 <h3 class="card-title text-dark fw-semibold mb-2">Grand Deluxe Triple Room</h3>
                                 <p class="fw-bold text-muted"> Spacious Accommodation for Families or Groups</p>
-                                <p class="fs-4 fw-bold text-primary"><span class="price" data-price-usd="$66" data-price-thb="2200฿" data-price-mmk="220,000mmk">$66</span> <span class="fs-6 fw-normal text-muted">/ per night</span></p>
+                                <p class="fs-4 fw-bold text-primary"><span class="price">2200฿</span> <span class="fs-6 fw-normal text-muted">/ per night</span></p>
                                 <p class="card-text">Perfectly designed for families or small groups, our Grand Deluxe Triple Room offers exceptional space and flexibility. 
                                     This room features two comfortable double beds and a stylish daybed, accommodating up to three guests with ease. 
                                     A generous seating area provides ample room for everyone to relax,

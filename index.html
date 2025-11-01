@@ -42,11 +42,11 @@
 
             <div class="form-group">
                 <select name="" id="">
-                    <option value="" selected disabled>Choose</option>
-                    <option value="">2 Adults</option>
-                    <option value="">3 Adults</option>
-                    <option value="">4 Adults</option>
-                    <option value="">Family</option>
+                    <option selected disabled>Choose</option>
+                    <option value="2adults">2 Adults</option>
+                    <option value="3adults">3 Adults</option>
+                    <option value="4adults">4 Adults</option>
+                    <option value="family">Family</option>
                 </select>
             </div>
 
@@ -83,15 +83,14 @@
                         <a class="nav-link" href="contact.html">Contact Us</a>
                     </li>
                 </ul>
-
                 <!-- Currency selector -->
-                <div class="ms-lg-3 ms-sm-0 mt-2 mt-lg-0 border-0 text-light currencys">
+                <!-- <div class="ms-3 mt-2 mt-lg-0 border-0 text-light currencys">
                     <select id="currencySelect" class="form-select form-select-sm">
                         <option value="USD">$ USD</option>
                         <option value="THB">฿ THB</option>
                         <option value="MMK">MMK</option>
                     </select>
-                </div>
+                </div> -->
             </div>
 
         </div>
@@ -164,11 +163,28 @@
         <div class="room-card">
             <div class="my-4 rooms">
                 <div class="border-0 card">
-                    <img src="./img/Superior-room.jpg" alt="standard Room" class="room-img">
+                    <img src="./img/standard.jpg" alt="standard Room" class="room-img">
+                    <div class="room-info">
+                        <div class="fw-bold header">
+                            <h5>Standard Room</h5>
+                            <span class="text-danger price">700฿ /Night</span>
+                        </div>
+
+                        <div class="info">
+                            <span><i class="fa-solid fa-users"></i> 2 Adult</span>
+                            <span><i class="fa-solid fa-bed"></i> Double / Twin</span>
+                            <span><i class="fa-solid fa-star"> </i>4.5</span>
+                            <span><i class="fa-solid fa-bath"></i> Shower</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="border-0 card">
+                    <img src="./img/Superior-room.jpg" alt="superior Room" class="room-img">
                     <div class="room-info">
                         <div class="fw-bold header">
                             <h5>Superior Room</h5>
-                            <span class="text-danger price" data-price-usd="23">฿ 850/Night</span>
+                            <span class="text-danger price">1100฿/Night</span>
                         </div>
 
                         <div class="info">
@@ -181,11 +197,11 @@
                 </div>
 
                 <div class="border-0 card">
-                    <img src="./img/Deluxe.JPG" alt="standard Room" class="room-img">
+                    <img src="./img/Deluxe.JPG" alt="deluxe Room" class="room-img">
                     <div class="room-info">
                         <div class="fw-bold header">
                             <h5>Deluxe Room</h5>
-                            <span class="text-danger price" data-price-usd="27">฿ 1000/Night</span>
+                            <span class="text-danger price">1300฿/Night</span>
                         </div>
 
                         <div class="info">
@@ -198,11 +214,11 @@
                 </div>
 
                 <div class="border-0 card">
-                    <img src="./img/Grand-Deluxe-room.JPG" alt="standard Room" class="room-img">
+                    <img src="./img/Grand-Deluxe-room.JPG" alt="grand deluxe Room" class="room-img">
                     <div class="room-info">
                         <div class=" fw-bold header">
                             <h5>Grand Deluxe Room</h5>
-                            <span class="text-danger price" data-price-usd="34">฿ 1250/Night</span>
+                            <span class="text-danger price">1600฿/Night</span>
                         </div>
 
                         <div class="info">

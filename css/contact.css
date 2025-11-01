@@ -83,6 +83,11 @@ body{
     outline: none !important;
 }
 
+.cuurencys select option{
+    font-size: 5rem;
+    color: #fff;
+}
+
 
 .contacts{
     height: 100vh;

@@ -193,10 +193,11 @@ body{
 
 
 .images img{
-    width: 20%;
-    max-width: 350px;
-    height: 250px;
+    width: 280px;
+    height: 200px;
     border-radius: 16px;
+
+    flex-wrap: wrap;
 }
 
 
