@@ -1,12 +1,3 @@
-// Start Footer
-	const getyear = $('#getyear');
-	const getfullyear = new Date().getFullYear();
-	getyear.text(getfullyear);
-// End Footer
-
-
-
-
 $(document).ready(function(){
     $(".btn-backtotops").hide();
 	$(window).scroll(function(){
@@ -35,9 +26,11 @@ $(document).ready(function(){
 
 	});
 
-    
+	// Start Footer
+	const getyear = $('#getyear');
+	const getfullyear = new Date().getFullYear();
+	getyear.text(getfullyear);
+	// End Footer
 
     
-
-
 });

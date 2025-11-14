@@ -14,6 +14,8 @@
 
     box-sizing: border-box;
 
+    user-select: none;
+
 }
 
 /* Make media elements responsive by default to avoid overflow */
@@ -37,7 +39,7 @@ html{
 
 	position: absolute;
 	right: 30px;
-	bottom: 10px;
+	bottom: 60px;
 
 	z-index: 200;
 }

@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 :root{
-    --primarycolor: rgb(52, 149, 176);
+    --primarycolor: #3495b0;
     --secondarycolor:rgb(175, 208, 234);
     --primaryfont: "Lora";
     --secondaryfont: "PT Sans";
@@ -13,6 +13,8 @@
     padding: 0;
 
     box-sizing: border-box;
+
+    user-select: none;
 
 }
 
@@ -33,7 +35,7 @@ img, picture, video, svg {
 
 	position: absolute;
 	right: 30px;
-	bottom: 10px;
+	bottom: 60px;
 
 	z-index: 200;
 }

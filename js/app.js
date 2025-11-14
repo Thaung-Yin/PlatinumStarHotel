@@ -117,11 +117,5 @@ $(document).ready(function(){
 	});
 
     /*End Welcome Section */
-
-    
-
-    
-
-
 });
 
