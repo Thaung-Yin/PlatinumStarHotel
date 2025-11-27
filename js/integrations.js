@@ -127,7 +127,7 @@
 
 
     if(document.readyState === 'loading'){
-        document.addEventListener('DOMContentLoaded', () => { initCurrencySelector(); initContactForm(); initFooterSubscribe(); initBookingForm(); });
+        document.addEventListener('DOMContentLoaded', () => { initContactForm(); initFooterSubscribe(); initBookingForm(); });
     } else {
         initCurrencySelector(); initContactForm(); initFooterSubscribe(); initBookingForm();
     }
