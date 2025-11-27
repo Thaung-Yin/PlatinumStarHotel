@@ -124,7 +124,7 @@ body{
     object-fit: cover;
 }
 
-/* Custom max-width utility */
+
 .mw-lg {
     max-width: 600px;
 }
